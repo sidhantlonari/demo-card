@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testdata.verifyregister">
+      <class name="testdata.verify_openlink">
         <methods>
-          <include name="login"/>
           <include name="lunch"/>
+          <include name="openlinks"/>
           <include name="end"/>
         </methods>
-      </class> <!-- testdata.verifyregister -->
+      </class> <!-- testdata.verify_openlink -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

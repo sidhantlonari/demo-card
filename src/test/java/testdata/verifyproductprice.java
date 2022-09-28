@@ -22,6 +22,7 @@ public class verifyproductprice extends bbase
 	@Test
 	public void price() throws InterruptedException
 	{
+		System.out.println("Testcase:5 verify product price....");
 		productprice p=new productprice(driver);
 		p.search1().sendKeys(pricedata.sp1);
 		p.searchbbb1().click();

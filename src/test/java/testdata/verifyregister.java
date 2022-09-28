@@ -14,7 +14,7 @@ public class verifyregister extends bbase{
 	@Test
 	public void register() throws IOException, InterruptedException
 	{
-		
+		System.out.println("Testcase:1 verify register page...");
 		register re=new register(driver);
 		Thread.sleep(5000);
 		re.myacc().click();//dropdown

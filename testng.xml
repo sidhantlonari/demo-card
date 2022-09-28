@@ -3,7 +3,15 @@
 <suite name="Suite">
   <test thread-count="5" name="Testng">
     <classes>
+     
       <class name="testdata.verifyregister"/>
+      <class name="testdata.verifylogin"/>
+      <class name="testdata.verifycurrencydropdown"/>
+      <class name="testdata.verifyheader"/>
+      <class name="testdata.verifyproductprice"/>
+      <class name="testdata.verify_brokenlink"/>
+      <class name="testdata.verifylinkstext"/>
+      <class name="testdata.verify_openlink"/>
     </classes>
   </test> <!-- Testng -->
 </suite> <!-- Suite -->

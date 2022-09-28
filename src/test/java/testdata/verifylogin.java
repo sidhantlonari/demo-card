@@ -9,9 +9,11 @@ import resources.commonUtilities;
 import resources.regiterdata;
 
 public class verifylogin extends bbase{
+
 	@Test
 	public void login() throws InterruptedException
 	{
+	System.out.println("Testcase:2 verify login...");
 	register ra = new register(driver);
 	Thread.sleep(5000);
 	ra.myacc().click();//dropdown
